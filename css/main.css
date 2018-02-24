@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+}
+
+.navbar-brand {
+    background-image: url('img/mjscLogo.png');
+    background-repeat: no-repeat;
+     width: 120px;
+     height: 55px;
+}
+
+.carousel {
+    height: 50%;
+}
+
+.item, .active, .carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.fill-1 {
+    background-image: url('img/facebook-cover-photo-01.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 117%;
+    background-color: white;
+}
+
+.fill-2 {
+    background-image: url('img/ball-on-fire.jpg');
+}
+
+.fill-3 {
+    background-image: url('img/ball-into-net.jpg');
+}
+
+.supa {
+    height: 125px;
+    background-image: url('img/supaonabike-header.jpg');
+}
+
+.calendar, .map {
+    height: 300px;
+}
+
+.sponsors {
+    padding: 10px;
+}
+
+.section {
+    margin: 50px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
