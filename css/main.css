@@ -2,15 +2,41 @@ html, body {
     height: 100%;
 }
 
+.navbar {
+    background-color: #15497a;
+    color: #ffffff;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar a :hover {
+    background-color: transparent;
+}
+
 .navbar-brand {
-    background-image: url('img/mjscLogo.png');
-    background-repeat: no-repeat;
-     width: 120px;
-     height: 55px;
+    /* background-image: url('img/mjscLogo.png'); */
+    /*background-repeat: no-repeat;*/
+    width: 120px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar .navbar-inverse .navbar-nav>li>a {
+    color: #ffffff
 }
 
 .carousel {
-    height: 50%;
+    height: 30%;
+    position: relative;
+    top: 56px;
 }
 
 .item, .active, .carousel-inner {
@@ -26,14 +52,20 @@ html, body {
 
 .fill-1 {
     background-image: url('img/facebook-cover-photo-01.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    max-height: 117%;
-    background-color: white;
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* max-height: 117%; */
+    /* background-color: white; */
 }
 
 .fill-2 {
-    background-image: url('img/ball-on-fire.jpg');
+    background-image: url('img/mjscLogo.png');
+    /* background-repeat: no-repeat; */
+    /* max-height: 117%; */
+    /* background-color: white; */
+    /* background-size: contain; */
+    /* max-height: 250px; */
+    /* margin: 75px 0 0 0; */
 }
 
 .fill-3 {
@@ -43,6 +75,20 @@ html, body {
 .supa {
     height: 125px;
     background-image: url('img/supaonabike-header.jpg');
+}
+
+.logo-wrapper {
+    position: relative;
+    top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: crimson;
+}
+
+.logo {
+    height: 250px;
 }
 
 .calendar, .map {
