@@ -2,6 +2,21 @@ html, body {
     height: 100%;
 }
 
+.flex{
+    display: flex;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.alignCenter{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+
 .navbar {
     background-color: #15497a;
     color: #ffffff;
@@ -78,8 +93,8 @@ html, body {
 }
 
 .logo-wrapper {
-    position: relative;
-    top: 56px;
+    /*position: relative;*/
+    margin-top: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,4 +126,29 @@ footer {
     position: fixed;
     bottom: 0;
     padding: 5px 15px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.embeddedDoc{
+    min-height: 600px;
+    max-width: 100%;
+}
+
+.scheduleWrapper{
+
+}
+
+
+/*OVERIDES*/
+.btn-primary{
+    background-color: #15497a;
+
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+    background-color: #ffffff;
+    color: #15497a;
+    font-weight: bold;
+    height: 100%;
 }

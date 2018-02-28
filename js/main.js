@@ -1,6 +1,6 @@
 var app = angular.module("MJSC-APP", ["ngRoute"]);
 
-app.config(function ($routeProvider) {
+app.config(function ($routeProvider, $locationProvider) {
 
     $routeProvider
         .when("/", {
@@ -9,6 +9,16 @@ app.config(function ($routeProvider) {
         .when("/contact", {
             templateUrl: "templates/contact.html"
         })
+        .when("/schedule", {
+            templateUrl: "templates/schedule.html"
+        })
+        .when("/sponsorships", {
+            templateUrl: "templates/sponsorship.html"
+        })
+        .otherwise({
+            templateUrl: "templates/home.html"
+        });
+    $locationProvider.html5Mode(true)
 
 });
 
