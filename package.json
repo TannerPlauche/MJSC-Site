@@ -1,0 +1,26 @@
+{
+  "name": "mjsc",
+  "version": "1.0.0",
+  "description": "Home page for Mount Juliet Soccer Club",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TannerPlauche/MJSC-Site.git"
+  },
+  "author": "Tanner Plauché",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TannerPlauche/MJSC-Site/issues"
+  },
+  "homepage": "https://github.com/TannerPlauche/MJSC-Site#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
