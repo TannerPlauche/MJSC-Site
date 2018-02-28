@@ -1,5 +1,18 @@
 html, body {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 300;
+}
+h2, h3, h4, h5{
+    font-weight: 300;
+}
+
+article{
+    font-size: initial;
+    padding: 0px 0px 20px;
 }
 
 .flex{
@@ -42,6 +55,12 @@ html, body {
 
 .navbar-brand img {
     height: 50px;
+}
+
+.navbar-nav{
+    height: 55px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar .navbar-inverse .navbar-nav>li>a {
@@ -100,10 +119,11 @@ html, body {
     align-items: center;
     padding: 15px;
     background-color: crimson;
+    color: #ffffff;
 }
 
 .logo {
-    height: 250px;
+    height: 200px;
 }
 
 .calendar, .map {
@@ -139,11 +159,22 @@ footer {
 
 }
 
+.scheduleWrapper ul{
+    padding: 0;
+}
+
+.scheduleWrapper thead{
+    background-color: #15497a;
+    color: #ffffff;
+}
+
+.coachImage{
+    margin: 10px;
+}
 
 /*OVERIDES*/
 .btn-primary{
     background-color: #15497a;
-
 }
 
 .nav > li > a:hover, .nav > li > a:focus{
