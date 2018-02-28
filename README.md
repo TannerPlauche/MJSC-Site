@@ -1,4 +1,7 @@
-fcysc
+MJSC
 =====
 
-Ford County Youth Soccer Club Website
+Mount Juliet Soccer Club Website
+
+Site is surged through Tanner Plauché's surge account. 
+See: http://surge.sh/
