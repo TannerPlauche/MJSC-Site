@@ -15,6 +15,10 @@ article{
     padding: 0px 0px 20px;
 }
 
+nav .navbar-toggle{
+    height: 55px;
+}
+
 .flex{
     display: flex;
 }
