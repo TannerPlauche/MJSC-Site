@@ -3,34 +3,36 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1 {
     font-weight: 300;
 }
-h2, h3, h4, h5{
+
+h2, h3, h4, h5 {
     font-weight: 400;
 }
 
-article{
+article {
     font-size: initial;
     padding: 0px 0px 20px;
 }
 
-nav .navbar-toggle{
+nav .navbar-toggle {
     height: 55px;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.justifyCenter{
+.justifyCenter {
     justify-content: center;
 }
 
-.alignCenter{
+.alignCenter {
     align-items: center;
 }
-.column{
+
+.column {
     flex-direction: column;
 }
 
@@ -61,7 +63,7 @@ nav .navbar-toggle{
     height: 50px;
 }
 
-.navbar-nav{
+.navbar-nav {
     height: 55px;
     display: flex;
     align-items: center;
@@ -134,6 +136,8 @@ nav .navbar-toggle{
     height: 200px;
 }
 
+.imageWrapper {}
+
 .calendar, .map {
     height: 300px;
 }
@@ -146,7 +150,7 @@ nav .navbar-toggle{
     margin: 50px 0;
 }
 
-.unstyled{
+.unstyled {
     list-style: none;
 }
 
@@ -158,34 +162,33 @@ footer {
     z-index: 2;
 }
 
-.embeddedDoc{
+.embeddedDoc {
     min-height: 600px;
     max-width: 100%;
 }
 
-.scheduleWrapper{
+.scheduleWrapper {}
 
-}
-
-.scheduleWrapper ul{
+.scheduleWrapper ul {
     padding: 0;
 }
 
-.scheduleWrapper thead{
+.scheduleWrapper thead {
     background-color: #15497a;
     color: #ffffff;
 }
 
-.coachImage{
+.coachImage {
     margin: 10px;
 }
 
 /*OVERIDES*/
-.btn-primary{
+
+.btn-primary {
     background-color: #15497a;
 }
 
-.nav > li > a:hover, .nav > li > a:focus{
+.nav>li>a:hover, .nav>li>a:focus {
     background-color: #ffffff;
     color: #15497a;
     font-weight: bold;

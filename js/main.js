@@ -25,7 +25,10 @@ app.config(function ($routeProvider, $locationProvider) {
 
 });
 
-app.controller("Main-Controller", ["$scope", function ($scope) {
-    $scope.test = "Hello"
+app.controller("Main-Controller", ["$scope", "$window", "$location", function ($scope, $window, $location) {
+    $scope.location = $location;
+
+    // $window.location ="/";
+    console.log($location);
 
 }]);

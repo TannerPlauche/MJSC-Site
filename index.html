@@ -17,7 +17,7 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 	<!--<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-	<link rel="shortcut icon" type="image/x-icon" href="css/img/mjscLogo.png"/>
+	<link rel="shortcut icon" type="image/x-icon" href="css/img/mjscLogo.png" />
 
 	<base href="/">
 </head>
@@ -76,9 +76,10 @@
 
 	<div class="logo-wrapper column">
 		<h1 class="text-center">
-			Tennessee's Premier Private Soccer Training
+			USA's Premier Private Soccer Coaching
 		</h1>
-		<img class="logo" src="css/img/mjscLogo.png" alt="">
+		<img class="logo" src="css/img/mjscLogo.png" alt="logo" ng-if="location.$$path !== '/schedule'">
+		<img class="logo" src="mjscImages/scheduleLabel.jpg" alt="schedule" ng-if="location.$$path === '/schedule'">
 	</div>
 	<ng-view></ng-view>
 	<footer>
