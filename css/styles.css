@@ -38,6 +38,10 @@
   padding: 0;
 }
 
+.scholarships li {
+  list-style: none;
+}
+
 .scholarships .info-wrapper {
   width: 50%;
   margin: 30px 25%;
