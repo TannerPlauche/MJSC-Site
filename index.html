@@ -14,6 +14,7 @@
 
 	<!-- Add custom CSS here -->
 	<link href="css/main.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 	<!--<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
@@ -50,62 +51,34 @@
 					<li>
 						<a href="/about">About</a>
 					</li>
-					<!-- <li class="dropdown">
-					      <a href="#" class="dropdown-toggle" data-toggle="dropdown">FCASL Adult League <b class="caret"></b></a>
-				          <ul class="dropdown-menu">
-				            <li>
-								<a href="docs/FCASL_Rules_2014.pdf">FCASL Rules</a>
-							</li>
-				          </ul>
-				        </li> -->
+
+					<li>
+						<a href="/franchise">Franchise</a>
+					</li>
+					<li>
+						<a href="/scholarships">Scholarships</a>
+					</li>
 					<li>
 						<a href="/sponsorships">Become a Sponsor!</a>
 					</li>
-					<!-- <li>
-							<a href="http://www.illinoisyouthsoccer.org/">IYSA</a>
-						</li> -->
 					<li>
 						<a href="/contact">Contact Us</a>
 					</li>
 				</ul>
 			</div>
-			<!-- /.navbar-collapse -->
 		</div>
-		<!-- /.container -->
 	</nav>
 
 	<div class="logo-wrapper column">
-		<h1 class="text-center">
-			USA's Premier Private Soccer Coaching
+		<h1 class="text-center" ng-if="location.$$path !== '/schedule'">
+			USA's Premier Private Soccer Training
 		</h1>
 		<img class="logo" src="css/img/mjscLogo.png" alt="logo" ng-if="location.$$path !== '/schedule'">
-		<img class="logo" src="mjscImages/scheduleLabel.jpg" alt="schedule" ng-if="location.$$path === '/schedule'">
+		<img class="large-logo" src="mjscImages/scheduleLabel.jpg" alt="schedule" ng-if="location.$$path === '/schedule'">
 	</div>
 	<ng-view></ng-view>
 	<footer>
-		<!-- <div class="row">
-				<div class="col-md-12">
-					<div class="panel panel-default">
-						<div class="panel-heading">Our Sponsors</div>
-						<div class="panel-body sponsors">
-							<img src="img/sponsors/GAH_Sign_web.png">
-							<img src="img/sponsors/ArendsSons_Sign_web.png" />
-							<img src="img/sponsors/BankOfGibson_Sign_web.png" />
-							<img src="img/sponsors/Birkeys_Sign_web.png" />
-							<img src="img/sponsors/CountryGuyPercy_Sign_web.png" />
-							<img src="img/sponsors/DayDrainage_Sign_web.png" />
-							<img src="img/sponsors/EckertyLaundry_Sign_web.png" />
-							<img src="img/sponsors/EdwardJones_Sign_web.png" />
-							<img src="img/sponsors/GCBC_Sign_web.png" />
-							<img src="img/sponsors/GCClinic_Sign_web.png" />
-							<img src="img/sponsors/GregKurtenbachSF_Sign_web.png" />
-							<img src="img/sponsors/MinionRealEstate_Sign_web.png" />
-							<img src="img/sponsors/VSI_Sign_web.png" />
-						</div>
-					</div>
-				</div>
-			</div> -->
-		Copyright © 2018 Mount Juliet Soccer Club Inc. All rights reserved, Created by Thunderclap Dev
+		Copyright © 2018 Mount Juliet Soccer Club Inc. All rights reserved, Created by A Mighty Empire
 	</footer>
 
 	</div>

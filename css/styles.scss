@@ -1,0 +1,42 @@
+.franchise-info {
+    text-align: center;
+}
+
+.franchiseList {
+    text-align: center;
+    h3 {
+        text-align: center;
+    }
+    li {
+        list-style-type: none;
+        color: darkgrey;
+    }
+    ul {
+        padding: 0;
+    }
+    .state-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .state {
+        width: 33%;
+    }
+}
+
+.scholarships {
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        // list-style: none;
+    }
+    .info-wrapper {
+        width: 50%;
+        margin: 30px 25%;
+    }
+}

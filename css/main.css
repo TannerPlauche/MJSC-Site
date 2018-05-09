@@ -136,6 +136,10 @@ nav .navbar-toggle {
     height: 200px;
 }
 
+.large-logo{
+    width: 80%;
+}
+
 .imageWrapper {}
 
 .calendar, .map {
@@ -193,4 +197,8 @@ footer {
     color: #15497a;
     font-weight: bold;
     height: 100%;
+}
+
+.franchiseList{
+    
 }

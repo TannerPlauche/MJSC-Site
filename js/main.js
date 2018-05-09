@@ -18,6 +18,12 @@ app.config(function ($routeProvider, $locationProvider) {
         .when("/about", {
             templateUrl: "templates/about.html"
         })
+        .when("/franchise", {
+            templateUrl: "templates/franchise.html"
+        })
+        .when("/scholarships", {
+            templateUrl: "templates/scholarships.html"
+        })
         .otherwise({
             templateUrl: "templates/home.html"
         });
