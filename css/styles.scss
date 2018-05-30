@@ -1,3 +1,14 @@
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.social-logo {
+    height: 52px;
+}
+
 .franchise-info {
     text-align: center;
 }
