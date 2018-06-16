@@ -1,0 +1,94 @@
+/* ----------------------------- */
+/* --- INITIAL MOBILE Layout --- */
+/* ----------------------------- */
+
+/* .masterBackgroundAbout {
+  background-image: url('../assets/graphics/wuilmar-matias-morales-591943-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  margin-top: 64px !important;
+  max-width: 1344px;
+} */
+
+.masterBackgroundAbout {
+  background-image: url('../assets/graphics/wuilmar-matias-morales-591943-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-attachment: center center;
+  margin-top: 64px !important;
+  max-width: 1344px;
+  height: 100%;
+  width: 100%;
+}
+
+.aboutUsOverlayControl {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  padding: 2rem 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portraitContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pickenPortrait {
+  border-radius: 500px;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.homeLogoControl {
+  width: 70%;
+  max-width: 250px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+/* ----------------------------- */
+/* ------- TABLET Layout ------- */
+/* ----------------------------- */
+
+@media screen and (min-width: 769px) {
+  .homeLogoControl {
+    max-width: 300px;
+  }
+
+  .aboutUsOverlayControl {
+    padding: 2rem 10%;
+  }
+}
+
+/* ----------------------------- */
+/* ------- DESKTOP Layout ------ */
+/* ----------------------------- */
+
+@media screen and (min-width: 1024px) {
+  .homeLogoControl {
+    max-width: 400px;
+  }
+
+  .aboutUsOverlayControl {
+    padding: 2rem 15%;
+  }
+}
+
+/* ----------------------------- */
+/* ------- WIDESCREEN Layout --- */
+/* ----------------------------- */
+
+@media screen and (min-width: 1216px) {
+}
+
+/* ----------------------------- */
+/* ------- FULL HD Layout ------ */
+/* ----------------------------- */
+
+@media screen and (min-width: 1408px) {
+}

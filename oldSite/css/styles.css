@@ -1,0 +1,61 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.social-logo {
+  height: 52px;
+}
+
+.franchise-info {
+  text-align: center;
+}
+
+.franchiseList {
+  text-align: center;
+}
+
+.franchiseList h3 {
+  text-align: center;
+}
+
+.franchiseList li {
+  list-style-type: none;
+  color: darkgrey;
+}
+
+.franchiseList ul {
+  padding: 0;
+}
+
+.franchiseList .state-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.franchiseList .state {
+  width: 33%;
+}
+
+.scholarships h1,
+.scholarships h2,
+.scholarships h3 {
+  text-align: center;
+}
+
+.scholarships ul {
+  padding: 0;
+}
+
+.scholarships li {
+  list-style: none;
+}
+
+.scholarships .info-wrapper {
+  width: 50%;
+  margin: 30px 25%;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,19 @@
+.navbar.is-fixed-top {
+  top: 0;
+  max-width: 1344px;
+  margin: auto;
+  /* box-shadow: 1px 6px 20px rgba(0, 0, 0, 0.1), -1px 6px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.navbarLogo {
+  max-height: 3rem;
+  height: 3rem;
+}
+
+.navbar-burger {
+  height: 64px;
+}
+
+.navbar-item img {
+  max-height: 3rem;
+}

@@ -1,28 +1,23 @@
 {
-  "name": "mjsc",
-  "version": "1.0.0",
-  "description": "Home page for Mount Juliet Soccer Club",
-  "main": "server.js",
-  "directories": {
-    "doc": "docs"
+  "name": "soccerclub",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-responsive": "^4.1.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.3.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "restart": "rs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TannerPlauche/MJSC-Site.git"
-  },
-  "author": "Tanner Plauché",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TannerPlauche/MJSC-Site/issues"
-  },
-  "homepage": "https://github.com/TannerPlauche/MJSC-Site#readme",
-  "dependencies": {
-    "express": "^4.16.2",
-    "morgan": "^1.9.0"
+    "start": "react-scripts start",
+    "serve": "nodemon server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
