@@ -1,5 +1,7 @@
 /* ----------------------------- */
+
 /* ------- MOBILE Layout ------- */
+
 /* ----------------------------- */
 .sponsorship{
   display: flex;
@@ -7,41 +9,48 @@
     align-items: center;
 }
 
-.sponsorshipContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
+.sponsorship {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
 }
 
 .sponsorshipInfo {
-  width: 75%;
+    width: 75%;
 }
 
 /* ----------------------------- */
+
 /* ------- TABLET Layout ------- */
-/* ----------------------------- */
-
-@media screen and (min-width: 769px) {
-}
 
 /* ----------------------------- */
+
+@media screen and (min-width: 769px) {}
+
+/* ----------------------------- */
+
 /* ------- DESKTOP Layout ------ */
-/* ----------------------------- */
-
-@media screen and (min-width: 1024px) {
-}
 
 /* ----------------------------- */
+
+@media screen and (min-width: 1024px) {}
+
+/* ----------------------------- */
+
 /* ------- WIDESCREEN Layout --- */
-/* ----------------------------- */
-
-@media screen and (min-width: 1216px) {
-}
 
 /* ----------------------------- */
+
+@media screen and (min-width: 1216px) {}
+
+/* ----------------------------- */
+
 /* ------- FULL HD Layout ------ */
+
 /* ----------------------------- */
 
-@media screen and (min-width: 1408px) {
-}
+@media screen and (min-width: 1408px) {}
