@@ -73,43 +73,33 @@ export default class TrainingSchedule extends Component {
               </thead>
               <tbody className="has-text-centered">
                 <tr>
-                  <th>3-4 years</th>
+                  <th>4-7 years</th>
                   <td>
                     <a href={this.maplocation} target="blank">
                       Charlie Daniels Park, Mt. Juliet
                     </a>
                   </td>
-                  <td>Saturdays, 9:00am - 9:40am</td>
+                  <td>Saturdays, 8:00am - 8:40am</td>
                   <td>$100 / five sessions</td>
                 </tr>
                 <tr>
-                  <th>5-8 years</th>
+                  <th>8-11 years</th>
                   <td>
                     <a href={this.maplocation} target="blank">
                       Charlie Daniels Park, Mt. Juliet
                     </a>
                   </td>
-                  <td>Saturdays, 9:45am - 10:25am</td>
+                  <td>Saturdays, 8:45am - 9:25am</td>
                   <td>$100 / five sessions</td>
                 </tr>
                 <tr>
-                  <th>9-12 years</th>
+                  <th>12-15 years</th>
                   <td>
                     <a href={this.maplocation} target="blank">
                       Charlie Daniels Park, Mt. Juliet
                     </a>
                   </td>
-                  <td>Saturdays, 10:30am - 11:10am</td>
-                  <td>$100 / five sessions</td>
-                </tr>
-                <tr>
-                  <th>13-15 years</th>
-                  <td>
-                    <a href={this.maplocation} target="blank">
-                      Charlie Daniels Park, Mt. Juliet
-                    </a>
-                  </td>
-                  <td>Saturdays, 11:15am - 11:55am</td>
+                  <td>Saturdays, 9:30am - 10:10am</td>
                   <td>$100 / five sessions</td>
                 </tr>
                 <tr>
@@ -119,7 +109,7 @@ export default class TrainingSchedule extends Component {
                       Charlie Daniels Park, Mt. Juliet
                     </a>
                   </td>
-                  <td>Saturdays, 12:00pm - 12:40pm</td>
+                  <td>Saturdays, 10:15am - 10:55am</td>
                   <td>$100 / five sessions</td>
                 </tr>
               </tbody>
