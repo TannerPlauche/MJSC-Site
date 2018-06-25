@@ -29,11 +29,10 @@ export default class TrainingSchedule extends Component {
               <h3 className="">Registration and Rates</h3>
               <p className=" secondaryFont">
                 Registration is a one-time fee of $35, and includes a free MJSC shirt. Please call{' '}
-                <a href="tel:1-613-603-0785">613-603-0785</a> or email{' '}
+                <a href="tel:1-613-603-0785">(615) 603-0785</a> or email{' '}
                 <a
-                  href="mailto:mtjulietsoccerclub@gmail.com?Subject=MJSC%20Registration%20and%20Information"
-                  target="_top"
-                >
+                  href="mailto:mountjulietsoccerclub@gmail.com?Subject=MJSC%20Registration%20and%20Information"
+                  target="_top">
                   mtjulietsoccerclub@gmail.com
                 </a>{' '}
                 for registration and more information.
