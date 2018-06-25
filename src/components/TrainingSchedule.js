@@ -14,7 +14,7 @@ export default class TrainingSchedule extends Component {
           </section> */}
           <section className="box is-radiusless schedule-header">
             <div className="content has-text-centered">
-              <h1 className="">Training Sessions</h1>
+              <h1 className="">Summer Training Schedule</h1>
               <p className=" secondaryFont">
                 Group training sessions are held on saturday mornings, at the Charlie Daniels Park
                 in Mount Juliet. We welcome players from ages 3-18, who will be arranged by age
@@ -33,7 +33,7 @@ export default class TrainingSchedule extends Component {
                 <a
                   href="mailto:mountjulietsoccerclub@gmail.com?Subject=MJSC%20Registration%20and%20Information"
                   target="_top">
-                  mtjulietsoccerclub@gmail.com
+                  mountjulietsoccerclub@gmail.com
                 </a>{' '}
                 for registration and more information.
               </p>
